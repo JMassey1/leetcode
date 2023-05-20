@@ -10,4 +10,4 @@ LeetCode is a popular platform for practicing coding skills and preparing for te
 
 The solutions in this repository are implemented using the following programming languages:
 
-- [TypeScript](./typescript/)
+- [TypeScript](./TypeScript/)
