@@ -1,3 +1,4 @@
+// 49. Group Anagrams
 function groupAnagrams(strs: string[]): string[][] {
 	const returnArr: string[][] = [];
 
@@ -22,4 +23,4 @@ function groupAnagrams(strs: string[]): string[][] {
 
 	return returnArr;
 
-};
+}

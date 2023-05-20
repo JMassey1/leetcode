@@ -1,3 +1,4 @@
+// 242. Valid Anagram
 function isAnagram(s: string, t: string): boolean {
 
 	const t_chars = Array.from(t);
@@ -11,8 +12,6 @@ function isAnagram(s: string, t: string): boolean {
 		}
 	})
 
-	if (count !== t.length) {
-		return false;
-	}
-	return true;
-};
+	return count === t.length;
+
+}
